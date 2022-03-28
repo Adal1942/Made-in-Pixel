@@ -1,0 +1,382 @@
+@media screen and (max-width: 760px){
+    header{
+        flex-direction: column;
+    }
+    #title{
+        padding-left: 10px;
+        margin-top: 5px;
+        margin-right: 8px;
+    }
+    li{
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    /* lançamentos */
+    .capitulo{
+        width: 380px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .box-categoria{
+        height: 200px;
+        width: 100%;
+    }
+    .opa{
+        padding-top: 5px;
+        font-size: 13px;
+    }
+    /* categorias */
+    .tamanho{
+        width: 380px;
+    }
+    .box-tipos{
+        margin-top: 10px;
+    }
+    /* main */
+    .main{
+        min-height: 50vh;
+    }
+    .container{
+        width: 380px;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-gap: 15px;
+        padding: 10px;
+    }
+    .container .card .imgBx{
+        height: 155px;
+    }
+    .container .card .content{
+        padding: 5px; 
+    }
+    .container .card .content .productName{
+        font-size: 10px;
+    }
+    .container .card .content .price_rating h2{
+        font-size: 13px;
+    }
+    .container .card .content .price_rating .fa-solid{
+        color: #7303c0;
+        cursor: pointer;
+        font-size: 10px;
+    }
+    /* botoes */
+    .voltar{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        background: #dadada;
+        display: flex;
+        padding: 5px 1px;
+        border-radius: 10px;
+        max-width: 380px;
+    }
+    .voltar .numeroPagina .vai{
+        list-style: none;
+        line-height: 1px;
+        margin: 0 1px;
+    }
+    .voltar .numeroPagina .vai{
+        width: 30px;
+        height: 30px;
+        line-height: 1px;
+        text-align: center;
+    }
+    /* footer */
+    .pe-grande{
+        padding-top: 5px;
+        font-size: 10px;
+    }
+    ul .novo{
+        padding-top: 5px;
+        margin: 0px 5px 5px 5px;
+        padding-left: 50px;
+        font-size: 25px;
+    } 
+}
+@media screen and (max-width: 390px){
+    header{
+        flex-direction: column;
+    }
+    #title{
+        padding-left: 10px;
+        margin-top: 5px;
+        margin-right: 8px;
+    }
+    li{
+        padding-left: 1px;
+        padding-right: 1px;
+
+    }
+    /* lançamentos */
+    .capitulo{
+        width: 380px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .box-categoria{
+        height: 200px;
+        width: 100%;
+    }
+    .opa{
+        padding-top: 5px;
+        font-size: 13px;
+    }
+    /* categorias */
+    .tamanho{
+        width: 380px;
+    }
+    .box-tipos{
+        margin-top: 10px;
+    }
+    /* main */
+    .main{
+        min-height: 50vh;
+    }
+    .container{
+        width: 380px;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-gap: 15px;
+        padding: 10px;
+    }
+    .container .card .imgBx{
+        height: 155px;
+    }
+    .container .card .content{
+        padding: 5px; 
+    }
+    .container .card .content .productName{
+        font-size: 10px;
+    }
+    .container .card .content .price_rating h2{
+        font-size: 13px;
+    }
+    .container .card .content .price_rating .fa-solid{
+        color: #7303c0;
+        cursor: pointer;
+        font-size: 10px;
+    }
+    /* botoes */
+    .voltar{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        background: #dadada;
+        display: flex;
+        padding: 5px 1px;
+        border-radius: 10px;
+        max-width: 380px;
+    }
+    .voltar .numeroPagina .vai{
+        list-style: none;
+        line-height: 1px;
+        margin: 0 1px;
+    }
+    .voltar .numeroPagina .vai{
+        width: 30px;
+        height: 30px;
+        line-height: 1px;
+        text-align: center;
+    }
+    /* footer */
+    .pe-grande{
+        padding-top: 5px;
+        font-size: 10px;
+    }
+    ul .novo{
+        padding-top: 5px;
+        margin: 0px 5px 5px 5px;
+        padding-left: 50px;
+        font-size: 25px;
+    } 
+}
+@media screen and (max-width: 375px){
+    header{
+        flex-direction: column;
+    }
+    #title{
+        padding-left: 10px;
+        margin-top: 5px;
+        margin-right: 8px;
+    }
+    li{
+        padding-left: 1px;
+        padding-right: 1px;
+        font-size: 15px;
+        
+    }
+    /* lançamentos */
+    .capitulo{
+        width: 380px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .box-categoria{
+        height: 200px;
+        width: 100%;
+    }
+    .opa{
+        padding-top: 5px;
+        font-size: 13px;
+    }
+    /* categorias */
+    .tamanho{
+        width: 380px;
+    }
+    .box-tipos{
+        margin-top: 10px;
+    }
+    /* main */
+    .main{
+        min-height: 50vh;
+    }
+    .container{
+        width: 380px;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-gap: 15px;
+        padding: 10px;
+    }
+    .container .card .imgBx{
+        height: 155px;
+    }
+    .container .card .content{
+        padding: 5px; 
+    }
+    .container .card .content .productName{
+        font-size: 10px;
+    }
+    .container .card .content .price_rating h2{
+        font-size: 13px;
+    }
+    .container .card .content .price_rating .fa-solid{
+        color: #7303c0;
+        cursor: pointer;
+        font-size: 10px;
+    }
+    /* botoes */
+    .voltar{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        background: #dadada;
+        display: flex;
+        padding: 5px 1px;
+        border-radius: 10px;
+        max-width: 360px;
+    }
+    .voltar .numeroPagina .vai{
+        list-style: none;
+        line-height: 1px;
+        margin: 0 1px;
+    }
+    .voltar .numeroPagina .vai{
+        width: 30px;
+        height: 30px;
+        line-height: 1px;
+        text-align: center;
+    }
+    /* footer */
+    .pe-grande{
+        padding-top: 5px;
+        font-size: 10px;
+    }
+    ul .novo{
+        padding-top: 5px;
+        margin: 0px 5px 5px 5px;
+        padding-left: 50px;
+        font-size: 25px;
+    } 
+}
+@media screen and (max-width: 360px){
+    header{
+        flex-direction: column;
+    }
+    #title{
+        padding-left: 10px;
+        margin-top: 5px;
+        margin-right: 8px;
+    }
+    li{
+        padding-left: 1px;
+        padding-right: 1px;
+        font-size: 13px;
+        
+    }
+    /* lançamentos */
+    .capitulo{
+        width: 340px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .box-categoria{
+        height: 200px;
+        width: 100%;
+    }
+    .opa{
+        padding-top: 5px;
+        font-size: 13px;
+    }
+    /* categorias */
+    .tamanho{
+        width: 340px;
+    }
+    .box-tipos{
+        margin-top: 10px;
+    }
+    /* main */
+    .container{
+        width: 340px;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-gap: 15px;
+        padding: 10px;
+    }
+    .container .card .imgBx{
+        height: 155px;
+    }
+    .container .card .content{
+        padding: 5px; 
+    }
+    .container .card .content .productName{
+        font-size: 10px;
+    }
+    .container .card .content .price_rating h2{
+        font-size: 13px;
+    }
+    .container .card .content .price_rating .fa-solid{
+        color: #7303c0;
+        cursor: pointer;
+        font-size: 10px;
+    }
+    /* botoes */
+    .voltar{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        background: #dadada;
+        display: flex;
+        padding: 5px 1px;
+        border-radius: 10px;
+        max-width: 340px;
+    }
+    .voltar .numeroPagina .vai{
+        list-style: none;
+        line-height: 1px;
+        margin: 0 1px;
+    }
+    .voltar .numeroPagina .vai{
+        width: 30px;
+        height: 30px;
+        line-height: 1px;
+        text-align: center;
+    }
+    /* footer */
+    .pe-grande{
+        padding-top: 5px;
+        font-size: 10px;
+    }
+    ul .novo{
+        padding-top: 5px;
+        margin: 0px 5px 5px 5px;
+        padding-left: 50px;
+        font-size: 25px;
+    } 
+}
