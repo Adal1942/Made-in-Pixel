@@ -46,56 +46,14 @@ a{
     font-size: 22px;
     margin-right: 1px;
 }
-/* começo da parte de lançamento */
-.lancamentos{
+.banner{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
 }
-.capitulo{
-    margin-top: 20px;
-    width: 1200px;
-    height: 400px;
-    background: #fff;
-    color: #000;  
-}
-.texto{
-    color: #000;
-}
-.box-categoria{
-    height: 300px;
+.tamanho2{
+    height: 150px;
     width: 100%;
-    display: flex;
-    justify-content: center; 
-}
-/* começo da parte de categorias */
-.categorias{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-}
-.tamanho{
-    width: 1200px;
-    height: 210px;
-    background: #fff;
-    color: #000;
-    margin-bottom: 30px;
-}
-.opa{
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    color: #fff;
-    background: linear-gradient(180deg, #2980B9, #6DD5FA, #2980B9);
-    padding-left: 20px;
-    padding-right: 20px;
-    }
-.box-tipos{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
 }
 /* começo do main */
 main{
@@ -168,42 +126,6 @@ main{
 .container .card.some{
     width: 100%;
     background: #ffffff;
-}
-/* botão de página */
-.proximo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #fff;
-    margin-bottom: 15px;
-}
-.voltar{
-    position: relative;
-    background: #dadada;
-    display: flex;
-    padding: 5px 1px;
-    border-radius: 10px;
-}
-.voltar .numeroPagina .vai{
-    list-style: none;
-    line-height: 20px;
-    margin: 0 5px;
-}
-.voltar .numeroPagina .vai{
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-}
-.numeracao{
-    text-decoration: none;
-    font-size: 20px;
-    color: #021B79;
-}
-.vaiMesmo{
-    text-decoration: none;
-    font-size: 20px;
-    color: #021B79;
 }
 /* começo do footer */
 .pe-grande{

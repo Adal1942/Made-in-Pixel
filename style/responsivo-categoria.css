@@ -11,27 +11,6 @@
         padding-left: 1px;
         padding-right: 1px;
     }
-    /* lançamentos */
-    .capitulo{
-        width: 380px;
-        height: 200px;
-        margin-bottom: 30px;
-    }
-    .box-categoria{
-        height: 200px;
-        width: 100%;
-    }
-    .opa{
-        padding-top: 5px;
-        font-size: 13px;
-    }
-    /* categorias */
-    .tamanho{
-        width: 380px;
-    }
-    .box-tipos{
-        margin-top: 10px;
-    }
     /* main */
     .main{
         min-height: 50vh;
@@ -58,28 +37,6 @@
         color: #7303c0;
         cursor: pointer;
         font-size: 10px;
-    }
-    /* botoes */
-    .voltar{
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        background: #dadada;
-        display: flex;
-        padding: 5px 1px;
-        border-radius: 10px;
-        max-width: 380px;
-    }
-    .voltar .numeroPagina .vai{
-        list-style: none;
-        line-height: 1px;
-        margin: 0 1px;
-    }
-    .voltar .numeroPagina .vai{
-        width: 30px;
-        height: 30px;
-        line-height: 1px;
-        text-align: center;
     }
     /* footer */
     .pe-grande{
@@ -107,27 +64,6 @@
         padding-right: 1px;
 
     }
-    /* lançamentos */
-    .capitulo{
-        width: 380px;
-        height: 200px;
-        margin-bottom: 30px;
-    }
-    .box-categoria{
-        height: 200px;
-        width: 100%;
-    }
-    .opa{
-        padding-top: 5px;
-        font-size: 13px;
-    }
-    /* categorias */
-    .tamanho{
-        width: 380px;
-    }
-    .box-tipos{
-        margin-top: 10px;
-    }
     /* main */
     .main{
         min-height: 50vh;
@@ -154,28 +90,6 @@
         color: #7303c0;
         cursor: pointer;
         font-size: 10px;
-    }
-    /* botoes */
-    .voltar{
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        background: #dadada;
-        display: flex;
-        padding: 5px 1px;
-        border-radius: 10px;
-        max-width: 380px;
-    }
-    .voltar .numeroPagina .vai{
-        list-style: none;
-        line-height: 1px;
-        margin: 0 1px;
-    }
-    .voltar .numeroPagina .vai{
-        width: 30px;
-        height: 30px;
-        line-height: 1px;
-        text-align: center;
     }
     /* footer */
     .pe-grande{
@@ -204,27 +118,6 @@
         font-size: 15px;
         
     }
-    /* lançamentos */
-    .capitulo{
-        width: 380px;
-        height: 200px;
-        margin-bottom: 30px;
-    }
-    .box-categoria{
-        height: 200px;
-        width: 100%;
-    }
-    .opa{
-        padding-top: 5px;
-        font-size: 13px;
-    }
-    /* categorias */
-    .tamanho{
-        width: 380px;
-    }
-    .box-tipos{
-        margin-top: 10px;
-    }
     /* main */
     .main{
         min-height: 50vh;
@@ -251,28 +144,6 @@
         color: #7303c0;
         cursor: pointer;
         font-size: 10px;
-    }
-    /* botoes */
-    .voltar{
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        background: #dadada;
-        display: flex;
-        padding: 5px 1px;
-        border-radius: 10px;
-        max-width: 360px;
-    }
-    .voltar .numeroPagina .vai{
-        list-style: none;
-        line-height: 1px;
-        margin: 0 1px;
-    }
-    .voltar .numeroPagina .vai{
-        width: 30px;
-        height: 30px;
-        line-height: 1px;
-        text-align: center;
     }
     /* footer */
     .pe-grande{
@@ -301,27 +172,6 @@
         font-size: 13px;
         
     }
-    /* lançamentos */
-    .capitulo{
-        width: 340px;
-        height: 200px;
-        margin-bottom: 30px;
-    }
-    .box-categoria{
-        height: 200px;
-        width: 100%;
-    }
-    .opa{
-        padding-top: 5px;
-        font-size: 13px;
-    }
-    /* categorias */
-    .tamanho{
-        width: 340px;
-    }
-    .box-tipos{
-        margin-top: 10px;
-    }
     /* main */
     .container{
         width: 340px;
@@ -345,28 +195,6 @@
         color: #7303c0;
         cursor: pointer;
         font-size: 10px;
-    }
-    /* botoes */
-    .voltar{
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        background: #dadada;
-        display: flex;
-        padding: 5px 1px;
-        border-radius: 10px;
-        max-width: 340px;
-    }
-    .voltar .numeroPagina .vai{
-        list-style: none;
-        line-height: 1px;
-        margin: 0 1px;
-    }
-    .voltar .numeroPagina .vai{
-        width: 30px;
-        height: 30px;
-        line-height: 1px;
-        text-align: center;
     }
     /* footer */
     .pe-grande{
