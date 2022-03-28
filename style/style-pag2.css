@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+    color: #fff;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #2980B9, #6DD5FA, #2980B9);
+}
+#title{
+    flex-direction: column;
+    line-height: 30px;
+    padding-left: 50px;
+    font-size: 13px;
+}
+li{
+    display: inline-block;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    padding-left: 15px;
+    margin-right: 30px;
+}
+a{
+    color: #fff;
+}
+.rica{
+    color: rgb(41, 40, 40);
+}
+.pixel{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 22px;
+    margin-right: 1px;
+}
+/* começo da parte de lançamento */
+.lancamentos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.capitulo{
+    margin-top: 20px;
+    width: 1200px;
+    height: 400px;
+    background: #fff;
+    color: #000;  
+}
+.texto{
+    color: #000;
+}
+.box-categoria{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+/* começo da parte de categorias */
+.categorias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.tamanho{
+    width: 1200px;
+    height: 210px;
+    background: #fff;
+    color: #000;
+    margin-bottom: 30px;
+}
+.opa{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background: linear-gradient(180deg, #2980B9, #6DD5FA, #2980B9);
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+.box-tipos{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* começo do main */
+main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    background: #fff;
+}
+.container{
+    position: relative;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+.container .card{
+    width: 100%;
+    background: #dadada;
+}
+.container .card .imgBx{
+    position: relative;
+    width: 100%;
+    height: 310px;
+    overflow: hidden;
+}
+.container .card .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+    transform-origin: right;
+}
+.container .card:hover .imgBx img{
+    transform: scale(1.1);
+}
+.container .card .content{
+    padding: 10px; 
+}
+.container .card .content .productName{
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+    margin: 5px 0;
+}
+.container .card .content .price_rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .card .content .price_rating h2{
+    font-size: 20px;
+    color: #ff2020;
+    font-weight: 500;
+}
+.container .card .content .price_rating .fa-solid{
+    color: #7303c0;
+    cursor: pointer;
+}
+.container .card .content .price_rating .fa-solid.grey{
+    color: #ccc;
+}
+.cardBotao{
+    text-decoration: none;
+}
+/* botão de página */
+.proximo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin-bottom: 15px;
+}
+.voltar{
+    position: relative;
+    background: #dadada;
+    display: flex;
+    padding: 5px 1px;
+    border-radius: 10px;
+}
+.voltar .numeroPagina .vai{
+    list-style: none;
+    line-height: 20px;
+    margin: 0 5px;
+}
+.voltar .numeroPagina .vai{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.numeracao{
+    text-decoration: none;
+    font-size: 20px;
+    color: #021B79;
+}
+.vaiMesmo{
+    text-decoration: none;
+    font-size: 20px;
+    color: #021B79;
+}
+/* começo do footer */
+.pe-grande{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 100px;
+}
+ul .novo{
+    list-style: none;
+    margin: 0px 5px 10px 5px;
+    padding-left: 85px;
+    font-size: 35px;
+}
