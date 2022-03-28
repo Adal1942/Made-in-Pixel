@@ -1,0 +1,493 @@
+@media screen and (max-width: 760px){
+    header{
+        flex-direction: column;
+    }
+    #title{
+        padding-left: 10px;
+        margin-top: 5px;
+        margin-right: 8px;
+    }
+    li{
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    /* card 1 */
+    .cartao{
+        width: 400px;
+        height: 810px;
+        margin-top: 20px;
+        flex-direction: column;   
+    }
+    .cartao .imgBx{
+        margin-top: 20px;
+        min-width: 400px;
+        height: 50%;   
+    }
+    .cartao .imgBx img{
+        max-width: 310px;
+    }
+    .cartao .detalhes{
+        position: relative;
+        width: 400px;
+        height: 100%;
+        background: #fff;
+        padding: 20px 35px 0px 20px;
+    }
+    .titulo{
+        width: 400px;
+    }
+    .titulo h2{
+        font-size: 18px;
+    }
+    .sub-titulo h3{
+        font-size: 15px;
+    }
+    .avaliacoes{
+        margin-top: 15px;
+    }
+    .estrelas{
+        font-size: 15px;
+    }
+    .avaliacao{
+        font-size: 15px;
+    }
+    .vendidos{
+        font-size: 15px;
+    }
+    .preco{
+        padding: 10px 25px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .quantidade{
+        font-size: 15px;
+    }
+    .disponivel{
+        font-size: 11px;
+    }
+    .botoes{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 10px;
+    }
+    .comprar{
+        margin-top: 25px;
+        width: 150px;
+        height: 60px;
+    }
+    .comprei{
+        font-size: 11px;   
+    }
+    .carro{
+        margin-top: 25px;
+        margin-left: 10px;
+        width: 150px;
+        height: 60px;
+    }
+    .carrinho{
+        font-size: 11px;
+    }
+
+    /* card 2 */
+    .cartao-2{
+        width: 400px;
+        height: 480px;
+    }
+    /* carousel */
+    .carrosel-2{
+        width: 400px;
+        height: 380px;
+        background: #fff;
+        color: #000;
+        margin-bottom: 50px;
+        box-shadow: 0 15px 45px 15px rgba(0,0,0,0.2);
+        padding: 30px 45px 0px 30px;   
+    }
+    .box-categoria{
+        padding-top: 10px;
+        height: 210px;
+    }
+    /* footer */
+    .pe-grande{
+        padding-top: 5px;
+        font-size: 10px;
+    }
+    ul .novo{
+        padding-top: 5px;
+        margin: 0px 5px 5px 5px;
+        padding-left: 50px;
+        font-size: 25px;
+    }  
+}
+@media screen and (max-width: 390px){
+    header{
+        flex-direction: column;
+    }
+    #title{
+        padding-left: 10px;
+        margin-top: 5px;
+        margin-right: 8px;
+    }
+    li{
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    /* card 1 */
+    .cartao{
+        width: 370px;
+        height: 810px;
+        margin-top: 20px;
+        flex-direction: column;   
+    }
+    .cartao .imgBx{
+        margin-top: 20px;
+        min-width: 370px;
+        height: 50%;   
+    }
+    .cartao .imgBx img{
+        max-width: 335px;
+    }
+    .cartao .detalhes{
+        position: relative;
+        width: 370px;
+        height: 100%;
+        background: #fff;
+        padding: 20px 35px 0px 20px;
+    }
+    .titulo{
+        width: 390px;
+    }
+    .titulo h2{
+        font-size: 18px;
+    }
+    .sub-titulo h3{
+        font-size: 15px;
+    }
+    .avaliacoes{
+        margin-top: 15px;
+    }
+    .estrelas{
+        font-size: 13px;
+    }
+    .avaliacao{
+        font-size: 14px;
+    }
+    .vendidos{
+        font-size: 14px;
+    }
+    .preco{
+        padding: 10px 25px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .quantidade{
+        font-size: 15px;
+    }
+    .disponivel{
+        font-size: 11px;
+    }
+    .botoes{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 10px;
+    }
+    .comprar{
+        margin-top: 25px;
+        width: 150px;
+        height: 60px;
+    }
+    .comprei{
+        font-size: 10px;   
+    }
+    .carro{
+        margin-top: 25px;
+        margin-left: 10px;
+        width: 150px;
+        height: 60px;
+    }
+    .carrinho{
+        font-size: 10px;
+    }
+
+    /* card 2 */
+    .cartao-2{
+        width: 370px;
+        height: 480px;
+    }
+    /* carousel */
+    .carrosel-2{
+        width: 370px;
+        height: 380px;
+        background: #fff;
+        color: #000;
+        margin-bottom: 50px;
+        box-shadow: 0 15px 45px 15px rgba(0,0,0,0.2);
+        padding: 30px 45px 0px 30px;   
+    }
+    .box-categoria{
+        padding-top: 10px;
+        height: 220px;
+    }
+    /* footer */
+    .pe-grande{
+        padding-top: 5px;
+        font-size: 10px;
+    }
+    ul .novo{
+        padding-top: 5px;
+        margin: 0px 5px 5px 5px;
+        padding-left: 50px;
+        font-size: 25px;
+    }  
+}
+@media screen and (max-width: 375px){
+    header{
+        flex-direction: column;
+    }
+    #title{
+        padding-left: 10px;
+        margin-top: 5px;
+        margin-right: 8px;
+    }
+    li{
+        padding-left: 1px;
+        padding-right: 1px;
+        font-size: 15px;
+    }
+    /* card 1 */
+    .cartao{
+        width: 360px;
+        height: 810px;
+        margin-top: 20px;
+        flex-direction: column;   
+    }
+    .cartao .imgBx{
+        margin-top: 20px;
+        min-width: 360px;
+        height: 50%;   
+    }
+    .cartao .imgBx img{
+        max-width: 310px;
+    }
+    .cartao .detalhes{
+        position: relative;
+        width: 360px;
+        height: 100%;
+        background: #fff;
+        padding: 20px 35px 0px 20px;
+    }
+    .titulo{
+        width: 400px;
+    }
+    .titulo h2{
+        font-size: 18px;
+    }
+    .sub-titulo h3{
+        font-size: 15px;
+    }
+    .avaliacoes{
+        margin-top: 15px;
+    }
+    .estrelas{
+        font-size: 13px;
+    }
+    .avaliacao{
+        font-size: 13px;
+    }
+    .vendidos{
+        font-size: 13px;
+    }
+    .preco{
+        padding: 10px 25px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .quantidade{
+        font-size: 15px;
+    }
+    .disponivel{
+        font-size: 11px;
+    }
+    .botoes{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 10px;
+    }
+    .comprar{
+        margin-top: 25px;
+        width: 150px;
+        height: 60px;
+    }
+    .comprei{
+        font-size: 10px;   
+    }
+    .carro{
+        margin-top: 25px;
+        margin-left: 10px;
+        width: 150px;
+        height: 60px;
+    }
+    .carrinho{
+        font-size: 10px;
+    }
+
+    /* card 2 */
+    .cartao-2{
+        width: 360px;
+        height: 480px;
+    }
+    /* carousel */
+    .carrosel-2{
+        width: 360px;
+        height: 380px;
+        background: #fff;
+        color: #000;
+        margin-bottom: 50px;
+        box-shadow: 0 15px 45px 15px rgba(0,0,0,0.2);
+        padding: 30px 45px 0px 30px;   
+    }
+    .box-categoria{
+        height: 210px;
+    }
+    /* footer */
+    .pe-grande{
+        padding-top: 5px;
+        font-size: 10px;
+    }
+    ul .novo{
+        padding-top: 5px;
+        margin: 0px 5px 5px 5px;
+        padding-left: 50px;
+        font-size: 25px;
+    }  
+}
+@media screen and (max-width: 360px){
+    header{
+        flex-direction: column;
+    }
+    #title{
+        padding-left: 10px;
+        margin-top: 5px;
+        margin-right: 8px;
+    }
+    li{
+        padding-left: 1px;
+        padding-right: 1px;
+        font-size: 13px;
+    }
+    /* card 1 */
+    .cartao{
+        width: 340px;
+        height: 810px;
+        margin-top: 20px;
+        flex-direction: column;   
+    }
+    .cartao .imgBx{
+        margin-top: 20px;
+        min-width: 340px;
+        height: 50%;   
+    }
+    .cartao .imgBx img{
+        max-width: 290px;
+    }
+    .cartao .detalhes{
+        position: relative;
+        width: 340px;
+        height: 100%;
+        background: #fff;
+        padding: 20px 35px 0px 20px;
+    }
+    .titulo{
+        width: 400px;
+    }
+    .titulo h2{
+        font-size: 18px;
+    }
+    .sub-titulo h3{
+        font-size: 15px;
+    }
+    .avaliacoes{
+        margin-top: 15px;
+    }
+    .estrelas{
+        font-size: 12px;
+    }
+    .avaliacao{
+        font-size: 12px;
+    }
+    .vendidos{
+        font-size: 12px;
+    }
+    .preco{
+        padding: 10px 25px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .quantidade{
+        font-size: 15px;
+    }
+    .disponivel{
+        font-size: 11px;
+    }
+    .botoes{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 10px;
+    }
+    .comprar{
+        margin-top: 25px;
+        width: 150px;
+        height: 60px;
+    }
+    .comprei{
+        font-size: 9px;   
+    }
+    .carro{
+        margin-top: 25px;
+        margin-left: 10px;
+        width: 150px;
+        height: 60px;
+    }
+    .carrinho{
+        font-size: 9px;
+    }
+
+    /* card 2 */
+    .cartao-2{
+        width: 340px;
+        height: 480px;
+    }
+    /* carousel */
+    .carrosel-2{
+        width: 340px;
+        height: 380px;
+        background: #fff;
+        color: #000;
+        margin-bottom: 50px;
+        box-shadow: 0 15px 45px 15px rgba(0,0,0,0.2);
+        padding: 30px 45px 0px 30px;   
+    }
+    .box-categoria{
+        padding-top: 10px;
+        height: 210px;
+    }
+    /* footer */
+    .pe-grande{
+        padding-top: 5px;
+        font-size: 10px;
+    }
+    ul .novo{
+        padding-top: 5px;
+        margin: 0px 5px 5px 5px;
+        padding-left: 50px;
+        font-size: 25px;
+    }  
+}

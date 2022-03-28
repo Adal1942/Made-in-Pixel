@@ -127,6 +127,10 @@ main{
     width: 100%;
     background: #ffffff;
 }
+.tamanho2{
+    height: 150px;
+    width: 100%;
+}
 /* começo do footer */
 .pe-grande{
     padding-top: 10px;

@@ -206,7 +206,7 @@
     }
     /* lançamentos */
     .capitulo{
-        width: 380px;
+        width: 360px;
         height: 200px;
         margin-bottom: 30px;
     }
@@ -220,7 +220,7 @@
     }
     /* categorias */
     .tamanho{
-        width: 380px;
+        width: 360px;
     }
     .box-tipos{
         margin-top: 10px;
@@ -230,7 +230,7 @@
         min-height: 50vh;
     }
     .container{
-        width: 380px;
+        width: 360px;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         grid-gap: 15px;
         padding: 10px;

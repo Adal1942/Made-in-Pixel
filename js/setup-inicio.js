@@ -35,3 +35,19 @@ $('.sajid-2').owlCarousel({
         }
     }
 });
+$('.sajid-3').owlCarousel({
+    loop:true,
+    margin:5,
+    nav:false,
+    responsive:{
+        0:{
+            items:2
+        },
+        760:{
+            items:2
+        },
+        1000:{
+            items:5
+        }
+    }
+});
