@@ -104,6 +104,9 @@ a{
     font-weight: 300;
     color: #7303c0;
 }
+.estrelas .fa-solid.grey{
+    color: #ccc;
+}
 .avaliacao{
     padding: 0px 15px;
     font-size: 16px;
