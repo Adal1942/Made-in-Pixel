@@ -21,6 +21,7 @@ $('.sajid-2').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
+    dots: false,
     autoplay: true,
     autoplayTimeout: 4000,
     responsive:{
