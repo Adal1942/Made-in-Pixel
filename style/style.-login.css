@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+h1{
+    color: #fff;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #2980B9, #6DD5FA, #2980B9);
+}
+#title{
+    flex-direction: column;
+    line-height: 30px;
+    padding-left: 50px;
+    font-size: 13px;
+}
+li{
+    display: inline-block;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    padding-left: 15px;
+    margin-right: 30px;
+}
+.rica{
+    color: rgb(41, 40, 40);
+}
+.pixel{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 22px;
+    margin-right: 1px;
+}
+.clear{
+    color: transparent;
+    cursor: none;
+}
+/* main */
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/cenario.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 400px;
+    height: 450px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #3cffbe1f;
+    border-radius: 10px;
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: #ffffff;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #6dd5fa, #2980B9);
+    border-radius: 10px;
+    transition: .5s;
+}
+.input-group{
+    top: 130px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #6dd5fa, #2980B9);
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+}
+.chech-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+    font-family: sans-serif;
+}
+#login{
+    left: 50px;
+}
+#register{
+    left: 450px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}

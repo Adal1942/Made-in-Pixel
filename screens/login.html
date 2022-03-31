@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../style/style.-login.css">
+    <link rel="stylesheet" href="../style/responsivo-login.css">
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>Made in <h1 class="pixel">Pixel</h1></h1>
+        </div>
+        <ul>
+            <a href="./index.html" class="clear"><li>Início</li></a>
+            <a href="./screens/login.html" class="clear"><li><i class="fa-solid fa-cart-shopping"></i> Carrinho</li></a>
+            <a href="./screens/login.html" class="clear"><li>Entre</li></a>
+        </ul>
+    </header>
+    <main class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="E-mail" required>
+                <input type="text" class="input-field" placeholder="Senha" required>
+                <input type="checkbox" class="chech-box"><span>Lembrar senha</span>
+                <button type="submit" class="submit-btn"><a href=""> Entre</a></button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="Nome de usuário" required>
+                <input type="email" class="input-field" placeholder="E-mail" required>
+                <input type="text" class="input-field" placeholder="Senha" required>
+                <input type="checkbox" class="chech-box"><span>Eu aceito os termos e condições</span>
+                <button type="submit" class="submit-btn"><a href="">Cadastre-se</a></button>
+            </form>
+        </div>
+    </main>
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+
+        function register(){
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+        function login(){
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0";
+        }
+    </script>
+    
+</body>
+</html>

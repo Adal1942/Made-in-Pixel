@@ -1,0 +1,116 @@
+@media screen and (max-width: 760px){
+    header{
+        flex-direction: column;
+    }
+    #title{
+        padding-left: 10px;
+        margin-top: 5px;
+        margin-right: 8px;
+    }
+    li{
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    /* main */
+    .main{
+        min-height: 50vh;
+    }
+    .container{
+        width: 380px;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-gap: 15px;
+        padding: 10px;
+    }
+    .container .card .imgBx{
+        height: 155px;
+    }
+    .container .card .content{
+        padding: 5px; 
+    }
+    .container .card .content .productName{
+        font-size: 8px;
+    }
+    .container .card .content .price_rating h2{
+        font-size: 13px;
+    }
+    .container .card .content .price_rating .fa-solid{
+        color: #7303c0;
+        cursor: pointer;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 390px){
+    header{
+        flex-direction: column;
+    }
+    #title{
+        padding-left: 10px;
+        margin-top: 5px;
+        margin-right: 8px;
+    }
+    li{
+        padding-left: 1px;
+        padding-right: 1px;
+        font-size: 15px;
+        
+    }
+    /* main */
+    .hero{
+        min-height: 100vh;
+        height: 400px;
+    }
+    .form-box{
+        width: 340px;
+        height: 450px;
+    }
+}
+@media screen and (max-width: 375px){
+    header{
+        flex-direction: column;
+    }
+    #title{
+        padding-left: 10px;
+        margin-top: 5px;
+        margin-right: 8px;
+    }
+    li{
+        padding-left: 1px;
+        padding-right: 1px;
+        font-size: 15px;
+        
+    }
+    /* main */
+    .hero{
+        min-height: 100vh;
+        height: 500px;
+    }
+    .form-box{
+        width: 340px;
+        height: 450px;
+    }
+}
+@media screen and (max-width: 360px){
+    header{
+        flex-direction: column;
+    }
+    #title{
+        padding-left: 10px;
+        margin-top: 5px;
+        margin-right: 8px;
+    }
+    li{
+        padding-left: 1px;
+        padding-right: 1px;
+        font-size: 15px;
+        
+    }
+    /* main */
+    .hero{
+        min-height: 100vh;
+        height: 400px;
+    }
+    .form-box{
+        width: 340px;
+        height: 450px;
+    }
+}
