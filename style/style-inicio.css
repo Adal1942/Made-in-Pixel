@@ -173,36 +173,41 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #fff;
+    background: #ffffff;
     margin-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 .voltar{
-    position: relative;
-    background: #dadada;
     display: flex;
-    padding: 5px 1px;
+    background-color: #ffffff;
+    padding: 3px 10px;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
     border-radius: 10px;
 }
-.voltar .numeroPagina .vai{
+.voltar .numeroPagina{
+    position: relative;
     list-style: none;
-    line-height: 20px;
-    margin: 0 5px;
-}
-.voltar .numeroPagina .vai{
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    line-height: 40px;
+    margin: 5px;
+    transition: 0.4s;
+    width: 40px;
+    height: 40px;
     text-align: center;
 }
-.numeracao{
+.voltar .numeroPagina .numeracao{
+    display: block;
     text-decoration: none;
-    font-size: 20px;
-    color: #021B79;
+    color: #2980B9;
+    font-weight: 600;
+    transition: 0.4s;
 }
-.vaiMesmo{
-    text-decoration: none;
+.voltar .numeroPagina:hover .numeracao,
+.voltar .numeroPagina.ativar .numeracao{
+    background-color: #6DD5FA;
+    color: #ffffff;
     font-size: 20px;
-    color: #021B79;
+    box-shadow: 0 0 3px 3px #6DD5FA;
 }
 /* começo do footer */
 .pe-grande{
