@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+    color: #000;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/cenarioB.png);
+}
+.box{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mini-box{
+    width: 440px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;    
+    background-color: #297fb936;
+    box-shadow: 0 0 3px 3px rgba(0,0,0,0.4);
+    margin-top: 10px;
+
+}
+.texto{
+    width: 400px;
+    height: 470px;
+    font-size: 13px;
+    color: #fff;
+}
+button{
+    width: 150px;
+    height: 30px;
+    background: linear-gradient(90deg, #6dd5fa, #2980b9);
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 135px;
+}
+.retorno{
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,60 @@
+@media screen and (max-width: 760px){
+    .mini-box{
+        width: 340px;
+        height: 520px;
+    }
+    .texto{
+        width: 300px;
+        height: 500px;
+        font-size: 11px;
+    }
+    button{
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 390px){
+    .mini-box{
+        width: 340px;
+        height: 680px;
+    }
+    .texto{
+        width: 300px;
+        height: 650px;
+        font-size: 13px;
+    }
+    button{
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 375px){
+    .mini-box{
+        width: 360px;
+        height: 520px;
+    }
+    .texto{
+        width: 320px;
+        height: 500px;
+        font-size: 12px;
+    }
+    button{
+        margin-left: 85px;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 360px){
+    .mini-box{
+        width: 340px;
+        height: 520px;
+    }
+    .texto{
+        width: 300px;
+        height: 500px;
+        font-size: 11px;
+    }
+    button{
+        margin-left: 80px;
+        margin-top: 40px;
+    }
+}
