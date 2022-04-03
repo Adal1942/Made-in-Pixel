@@ -1,7 +1,7 @@
 # Made-in-Pixel
 Meu projeto de um site de vendas.
 
-Clique e conheça mais sobre ele: https://made-in-pixel.netlify.app/
+Clique e conheça mais sobre ele: [clique aqui](https://made-in-pixel.netlify.app/)
 
 ![image](https://user-images.githubusercontent.com/65043062/161189268-4dc75e7a-3348-4f9c-94db-63d238dd7fa3.png)
 
